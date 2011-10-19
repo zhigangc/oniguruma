@@ -13220,7 +13220,7 @@ _ACEOF
 fi
 
 
-ac_config_files="$ac_config_files Makefile onig-config sample/Makefile"
+ac_config_files="$ac_config_files Makefile onig-config sample/Makefile oniguruma.pc oniguruma-uninstalled.pc"
 
 ac_config_commands="$ac_config_commands default"
 
@@ -14060,6 +14060,8 @@ do
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "onig-config") CONFIG_FILES="$CONFIG_FILES onig-config" ;;
     "sample/Makefile") CONFIG_FILES="$CONFIG_FILES sample/Makefile" ;;
+    "oniguruma.pc") CONFIG_FILES="$CONFIG_FILES oniguruma.pc" ;;
+    "oniguruma-uninstalled.pc") CONFIG_FILES="$CONFIG_FILES oniguruma-uninstalled.pc" ;;
     "default") CONFIG_COMMANDS="$CONFIG_COMMANDS default" ;;
 
   *) { { echo "$as_me:$LINENO: error: invalid argument: $ac_config_target" >&5
